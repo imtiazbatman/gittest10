@@ -6,3 +6,8 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+  my-jobs2:
+    runs-on: ubuntu-letest
+    steps:
+      - name: my step
+        run: echo "Hello agine"
